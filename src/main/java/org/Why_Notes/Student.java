@@ -1,12 +1,7 @@
 package org.Why_Notes;
 
 public class Student {
-    public Student(String lastName, String firstName, double[] grades, double average) {
-        this.lastName = lastName;
-        this.firstName = firstName;
-        this.grades = grades;
-        this.average = average;
-    }
+
 
     private final String lastName;
     private final String firstName;
@@ -32,5 +27,10 @@ public class Student {
 
     private final double average;
 
-
+    public Student(String lastName, String firstName, double[] grades, double average) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.grades = grades;
+        this.average = average;
+    }
 }
